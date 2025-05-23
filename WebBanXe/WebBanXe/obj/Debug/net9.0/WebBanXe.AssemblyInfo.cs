@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebBanXe")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf8259de7838dba20a5c1685dcc32bb9f0056a35")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebBanXe")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebBanXe")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

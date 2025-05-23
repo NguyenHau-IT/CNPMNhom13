@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CNPMNhom13\\WebBanXe\\WebBanXe\\WebBanXe.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\CNPMNhom13\\WebBanXe\\WebBanXe\\WebBanXe.csproj": {}
   },
   "projects": {
-    "D:\\CNPMNhom13\\WebBanXe\\WebBanXe\\WebBanXe.csproj": {
+    "C:\\Users\\Admin\\Desktop\\CNPMNhom13\\WebBanXe\\WebBanXe\\WebBanXe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CNPMNhom13\\WebBanXe\\WebBanXe\\WebBanXe.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\CNPMNhom13\\WebBanXe\\WebBanXe\\WebBanXe.csproj",
         "projectName": "WebBanXe",
-        "projectPath": "D:\\CNPMNhom13\\WebBanXe\\WebBanXe\\WebBanXe.csproj",
-        "packagesPath": "C:\\Users\\dtnhn\\.nuget\\packages\\",
-        "outputPath": "D:\\CNPMNhom13\\WebBanXe\\WebBanXe\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\CNPMNhom13\\WebBanXe\\WebBanXe\\WebBanXe.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\CNPMNhom13\\WebBanXe\\WebBanXe\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "E:\\Microsoft Visual Studio\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dtnhn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -43,13 +43,35 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -69,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
