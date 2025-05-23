@@ -19,7 +19,7 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseStaticFiles();    // Thay vì MapStaticAssets()
+app.UseStaticFiles();    // Thay vï¿½ MapStaticAssets()
 
 app.UseRouting();
 
